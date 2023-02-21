@@ -11697,4 +11697,19 @@ body {
 
 .footer {
   padding: 5rem 0;
+  
+/*!código grid gespenster II */
+  .grid-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 10px;
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  flex: 1;
+}
 }
