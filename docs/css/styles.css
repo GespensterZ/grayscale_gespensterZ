@@ -11701,7 +11701,7 @@ body {
 /*!código grid gespenster II */
   .grid-container {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(6, 16.666%);
   grid-gap: 3px;
   grid-row-gap: 3px; /* Añadir espacio entre filas */
 }
