@@ -11703,7 +11703,7 @@ body {
   display: grid;
   grid-template-columns: repeat(6, 16.666%);
   grid-gap: 3px;
-  grid-row-gap: 9px !important; /* Añadir espacio entre filas */
+  grid-row-gap: 9px !important; /* Añadir espacio entre filas y utilizar !important */
 }
 
 .col {
