@@ -11707,3 +11707,8 @@ body {
   gap: 0;
   align-items: center;
 }
+  
+/*!espacio entre bloques */
+ .col-lg-8 {
+  margin-top: 20px;
+}
