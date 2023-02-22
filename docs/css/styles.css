@@ -11701,11 +11701,7 @@ body {
 /*!código grid gespenster II */
   .grid-container {
   display: grid;
-  grid-template-columns: repeat(4, 16.666%);
-  gap: 3px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Columnas con ancho mínimo de 200px y flexible */
+  gap: 1rem; /* Espacio en blanco entre columnas y filas */
 }
-
-.col {
-  flex: 1;
-  width: 100%;
-}
+  
