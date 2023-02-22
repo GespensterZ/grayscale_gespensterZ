@@ -11701,7 +11701,9 @@ body {
 /*!código grid gespenster II */
  .grid-container {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  grid-template-rows: repeat(3, minmax(0, auto));
-  grid-gap: 0;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, auto);
+  grid-auto-flow: dense;
+  gap: 0;
+  align-items: center;
 }
