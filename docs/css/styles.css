@@ -11701,7 +11701,7 @@ body {
 /*!código grid gespenster II */
   .grid-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Columnas con ancho mínimo de 200px y flexible */
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Columnas con ancho mínimo de 200px y flexible */
   gap: 1rem; /* Espacio en blanco entre columnas y filas */
 }
   
