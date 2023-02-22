@@ -769,6 +769,7 @@ progress {
 .col-8 {
   flex: 0 0 auto;
   width: 66.66666667%;
+  margin-bottom: 20px; /* espacio de 20px debajo del elemento */
 }
 
 .col-9 {
@@ -11708,7 +11709,3 @@ body {
   align-items: center;
 }
   
-/*!espacio entre bloques */
- .col-lg-8 {
-  margin-top: 30px;
-}
