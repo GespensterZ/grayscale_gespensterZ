@@ -3035,24 +3035,24 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #fff;
-  background-color: transparent;
-  border-color: #64a19d;
+  background-color: #212529;
+  border-color: #000000;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #558985;
-  border-color: #50817e;
+  background-color: #33312B;
+  border-color: #000000;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
-  background-color: #558985;
-  border-color: #fff;
+  background-color: #695348;
+  border-color: #000000;
   box-shadow: 0 0 0 0.25rem rgba(123, 175, 172, 0.5);
 }
 .btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
   color: #fff;
   background-color: #50817e;
-  border-color: #4b7976;
+  border-color: #000000;
 }
 .btn-check:checked + .btn-primary:focus, .btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus, .show > .btn-primary.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.25rem rgba(123, 175, 172, 0.5);
