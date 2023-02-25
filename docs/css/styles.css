@@ -11682,15 +11682,15 @@ body {
 }
 .contact-section .social a {
   text-align: center;
-  height: 5rem;
-  width: 5rem;
-  background: rgba(255, 255, 255, 0);
+  height: 3rem;
+  width: 3rem;
+  background: rgba(255, 255, 255, 1);
   border-radius: 100%;
-  line-height: 5rem;
+  line-height: 3rem;
   color: rgba(255, 255, 255, 0.3);
 }
 .contact-section .social a:hover {
-  color: rgba(255, 255, 255, 0);
+  color: rgba(255, 255, 255, 1);
 }
 .contact-section .social a:active {
   color: #fff;
