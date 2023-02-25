@@ -11709,3 +11709,15 @@ body {
   align-items: center;
 }
   
+  /*! para ajustar las secciones */
+  html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  height: 100%;
+  margin-top: -50px;
+  padding-top: 50px;
+}
